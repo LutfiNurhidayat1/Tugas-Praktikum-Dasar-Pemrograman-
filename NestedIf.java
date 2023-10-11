@@ -8,6 +8,7 @@ public class NestedIf {
       int pilihan;
       int pengalaman;
       String pendapatan;
+      String pKerja;
 
       System.out.println("Departemen tempat bekerja:");
       System.out.println("1.Produksi");
@@ -30,19 +31,24 @@ public class NestedIf {
         
         if (pengalaman == 1) {
             pendapatan = "Rp,3.000.000";
+            pKerja = "Kurang dari 1 Tahun";
         } else if (pengalaman == 2) {
             pendapatan = "Rp,4.000.000";
+            pKerja = "1-2 Tahun";
         } else if (pengalaman == 3) {
             pendapatan = "Rp,5.000.000";
+            pKerja = "Lebih dari 2 Tahun";
         } else {
             pendapatan = "Input yang anda masukan tidak valid!";
+            pKerja = "Input yang anda masukan tidak valid!";
         }
 
-        System.out.println("=============================");
-        System.out.println("Nama : " + nama);
-        System.out.println("Departemen : " + departemen);      
+        System.out.println("================================");
+        System.out.println("Nama       : " + nama);
+        System.out.println("Departemen : " + departemen);
+        System.out.println("Pengalaman : " + pKerja);     
         System.out.println("Pendapatan : " + pendapatan);
-        System.out.println("=============================");
+        System.out.println("================================");
 
       } else if (pilihan == 2) {
         departemen = "Marketing";
@@ -56,19 +62,24 @@ public class NestedIf {
         
         if (pengalaman == 1) {
             pendapatan = "Rp,3.000.000";
+            pKerja = "Kurang dari 1 Tahun";
         } else if (pengalaman == 2) {
             pendapatan = "Rp,4.000.000";
+            pKerja = "1-2 Tahun";
         } else if (pengalaman == 3) {
             pendapatan = "Rp,5.000.000";
+            pKerja = "Lebih dari 2 Tahun";
         } else {
             pendapatan = "Input yang anda masukan tidak valid!";
+            pKerja = "Input yang anda masukan tidak valid!";
         }
 
-        System.out.println("=============================");
-        System.out.println("Nama : " + nama);
-        System.out.println("Departemen : " + departemen);      
+        System.out.println("================================");
+        System.out.println("Nama       : " + nama);
+        System.out.println("Departemen : " + departemen);
+        System.out.println("Pengalaman : " + pKerja);     
         System.out.println("Pendapatan : " + pendapatan);
-        System.out.println("=============================");
+        System.out.println("================================");
 
       } else if (pilihan == 3) {
         departemen = "Inventory";
@@ -82,19 +93,24 @@ public class NestedIf {
         
         if (pengalaman == 1) {
             pendapatan = "Rp,3.000.000";
+            pKerja = "Kurang dari 1 Tahun";
         } else if (pengalaman == 2) {
             pendapatan = "Rp,4.000.000";
+            pKerja = "1-2 Tahun";
         } else if (pengalaman == 3) {
             pendapatan = "Rp,5.000.000";
+            pKerja = "Lebih dari 2 Tahun";
         } else {
             pendapatan = "Input yang anda masukan tidak valid!";
+            pKerja = "Input yang anda masukan tidak valid!";
         }
 
-        System.out.println("=============================");
-        System.out.println("Nama : " + nama);
-        System.out.println("Departemen : " + departemen);      
+        System.out.println("================================");
+        System.out.println("Nama       : " + nama);
+        System.out.println("Departemen : " + departemen);
+        System.out.println("Pengalaman : " + pKerja);     
         System.out.println("Pendapatan : " + pendapatan);
-        System.out.println("=============================");
+        System.out.println("================================");
 
       } else {
         System.out.println("Input yang anda masukan tidak valid!");
